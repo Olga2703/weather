@@ -1,0 +1,137 @@
+.city-page__container {
+    background: radial-gradient(80.36% 80.36% at 50% 0%, #5A607C 0%, #161B30 100%);
+    padding-top: 18px;
+    padding-left: 34px;
+    padding-right: 20px;
+}
+
+.controllers {
+    margin-bottom: 21px;
+}
+.controllers__button-back {
+    width: 81px;
+    height: 24px;
+    padding: 0;
+    font-size: 16px;
+    line-height: 110.7%;
+    color: #8A91AB;
+}
+
+.icon__arrow-back {
+    width: 24px;
+    height: 24px;
+    background-position: -976px -262px;
+
+}
+
+.controllers__icon_bookmark {
+    width: 40px;
+    height: 40px;
+    background-position: -976px -200px;
+    zoom: 0.6;
+}
+
+.city-weather__title {
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 110.7%;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+
+.city-weather__description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110.7%;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.city-weather__degrees-container {
+    margin-bottom: 41px;
+}
+
+.city-weather__degrees {
+    font-weight: 600;
+    font-size: 129.755px;
+    line-height: 110.7%;
+    background: linear-gradient(180deg, #FFFFFF 11.65%, rgba(255, 255, 255, 0) 139.47%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.city-weather__icon_thunderstorm {
+    width: 248px;
+    height: 213px;
+    background-position: -512px -0;
+    zoom: 0.8;
+}
+
+.city-weather__pressure-container {
+    margin-bottom: 28px;
+}
+
+.city-weather__icon_barometer {
+    width: 24px;
+    height: 24px;
+    background-position: -982px -239px;
+    margin-right: 8px;
+}
+
+.city-weather__pressure {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.city-weather__sunset {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110.7%;
+    color: #8A91AB;
+}
+
+@media screen and (max-width: 425px) {
+    .city-page__container {
+        padding-top: 13px;
+        padding-left: 20px;
+        padding-right: 6px;
+    }
+    .controllers {
+        margin-bottom: 42px;
+    }
+    .city-weather {
+        padding-right: 10px;
+    }
+    .city-weather__title {
+        font-size: 24px;
+        margin-bottom: 14px;
+    }
+    .city-weather__description {
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+    .city-weather__degrees-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .city-weather__degrees {
+        font-size: 120px;
+        margin-bottom: -16px;
+    }
+    .city-weather__icon_thunderstorm {
+        zoom: 0.65;
+    }
+    .city-weather__pressure {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .city-weather__pressure-container {
+        margin-bottom: 41px;
+    }
+    .city-weather__sunset {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,75 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'SF Pro Display', sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #161B30;
+}
+
+.icon {
+  background: url('../public/sprite.png') no-repeat top left;
+}
+
+/*.bg-Clear {*/
+/*  width: 200px; height: 200px;*/
+/*  background: url('css_sprites.png') -760px -400px;*/
+/*}*/
+
+/*.bg-Clouds {*/
+/*  width: 249px; height: 200px;*/
+/*  background: url('css_sprites.png') -760px -0;*/
+/*}*/
+
+
+
+/*.bg-Drizzle {*/
+/*  width: 249px; height: 205px;*/
+/*  background: url('css_sprites.png') -249px -512px;*/
+/*}*/
+/*.bg-Dust___Sand___Ash {*/
+/*  width: 200px; height: 200px;*/
+/*  background: url('css_sprites.png') -512px -213px;*/
+/*}*/
+/*.bg-Mist___Smoke___Haze__Fog {*/
+/*  width: 200px; height: 200px;*/
+/*  background: url('css_sprites.png') -0 -721px;*/
+/*}*/
+/*.bg-Rain {*/
+/*  width: 249px; height: 204px;*/
+/*  background: url('css_sprites.png') -498px -512px;*/
+/*}*/
+
+/*.bg-Snow {*/
+/*  width: 249px; height: 209px;*/
+/*  background: url('css_sprites.png') -0 -512px;*/
+/*}*/
+
+
+/*.bg-Squall {*/
+/*  width: 200px; height: 200px;*/
+/*  background: url('css_sprites.png') -200px -721px;*/
+/*}*/
+/*.bg-Tornado {*/
+/*  width: 216px; height: 200px;*/
+/*  background: url('css_sprites.png') -760px -200px;*/
+/*}*/
+
+/*.bg-Лого {*/
+/*  width: 512px; height: 512px;*/
+/*  background: url('css_sprites.png') -0 -0;*/
+/*}*/
+

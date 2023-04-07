@@ -1,0 +1,82 @@
+.search-form {
+    padding-top: 80px;
+    margin-bottom: 6px;
+}
+
+.form-control {
+    background-color: #2A2F45;
+    border-radius: 2px;
+    border: none;
+    width: 510px;
+    height: 56px;
+    padding-left: 20px;
+}
+
+.form-control::placeholder {
+    color: #8A91AB;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.form-control:focus {
+    color: #FFFFFF;
+    background-color: #2A2F45;
+    border: #86b7fe;
+    outline: none;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.tip__icon_arrow {
+    width: 38px;
+    height: 32px;
+    background-position: -960px -400px;
+    margin-right: 6px;
+}
+
+.tip__container {
+    max-width: 244px;
+    margin-bottom: 77px;
+}
+
+.tip__city-container {
+    padding-top: 20px;
+    text-align: center;
+    max-width: 170px;
+}
+
+.tip__city-container_text {
+    color: #8A91AB;
+}
+
+.tip__city-container_link {
+    color: #FFFFFF;
+    text-decoration: none;
+    border-bottom: 1px dashed #FFFFFF;
+}
+
+.tip__bookmark-container {
+    max-width: 244px;
+}
+.tip__bookmark-container_text {
+    color: #8A91AB;
+    margin-bottom: 13px;
+}
+
+.tip__icon_bookmark {
+    width: 40px;
+    height: 40px;
+    background-position: -976px -200px;
+}
+
+@media screen and (max-width: 768px) {
+    .form-control {
+        width: 460px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .form-control {
+        width: 335px;
+    }
+}

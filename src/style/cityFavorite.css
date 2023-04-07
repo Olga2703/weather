@@ -1,0 +1,38 @@
+.card {
+    max-width: 270px;
+    height: 190px;
+    background-color: #292E44;
+    align-items: center;
+    justify-content: center;
+    padding-top: 9px;
+}
+
+.card__title {
+    font-size: 14px;
+    line-height: 110.7%;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.card__degrees {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 110.7%;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.card__icon {
+    width: 248px;
+    height: 213px;
+    background-position: -512px -0;
+    zoom: 0.4;
+}
+
+@media screen and (max-width: 425px) {
+    .card {
+        max-width: 158px;
+        padding-top: 9px;
+    }
+}
