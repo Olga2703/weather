@@ -18,9 +18,12 @@ export const fetchCities = createAsyncThunk(
       return [];
     }
     const response = await axios.get(
-      `https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=20&appid=${API_KEY}`
+      `https://autocomplete.travelpayouts.com/places2?term=${city}&locale=ru&types[]=country&types[]=city`
     );
-    return response.data;
+    const result = response.data.map((cityName) => {
+      return { id: cityName.id, name: cityName.name };
+    });
+    return result;
   }
 );
 
@@ -33,16 +36,7 @@ const citiesSlice = createSlice({
   },
   extraReducers: (builder) => {
     builder.addCase(fetchCities.fulfilled, (state, action) => {
-      if (action.payload.length === 0) {
-        citiesAdapte.
-      }
-      action.payload.forEach((city) => {
-        const id = uniqid();
-        state.entities[id] = {
-          name: city.local_names.ru ?? city.name,
-        };
-        state.ids.push(id);
-      });
+      citiesAdapter.setAll(state, action.payload);
     });
   },
 });
